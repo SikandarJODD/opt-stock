@@ -16,7 +16,9 @@
     >
     <p>Copyright © 2023 - All right reserved</p>
   </div>
-  <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+  <div
+    class="grid-flow-col gap-4 md:place-self-center md:justify-self-end hidden md:grid"
+  >
     <a
       ><svg
         xmlns="http://www.w3.org/2000/svg"

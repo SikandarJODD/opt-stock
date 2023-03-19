@@ -1,9 +1,9 @@
-<div class="navbar bg-base-100">
-  <div class="navbar-start">
+<div class="navbar bg-[#90dbf43d]">
+  <div class="navbar-start ">
     <div class="dropdown">
       <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
       <!-- svelte-ignore a11y-label-has-associated-control -->
-      <label tabindex="0" class="btn btn-ghost lg:hidden">
+      <label tabindex="0" class="btn btn-ghost lg:hidden ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-5 w-5"
@@ -24,12 +24,13 @@
         class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
       >
         <li><a href="/">Home</a></li>
-        <li><a href="/#products">Products</a></li>
-        <li><a href="/">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="/#profile">About</a></li>
       </ul>
     </div>
-    <a class="btn btn-ghost normal-case text-xl md:text-2xl fnt" href="/"
-      >Dread Trade</a
+    <a
+      class="btn btn-ghost normal-case text-xl md:text-2xl fnt text-green-500"
+      href="/">Stockify</a
     >
   </div>
   <div class="navbar-center hidden lg:flex">
@@ -37,7 +38,7 @@
       <!-- Laptop View -->
       <li><a href="/">Home</a></li>
       <li><a href="/#products">Products</a></li>
-      <li><a href="/">About</a></li>
+      <li><a href="/#profile">About</a></li>
     </ul>
   </div>
 </div>
